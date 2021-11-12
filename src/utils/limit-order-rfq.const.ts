@@ -115,19 +115,19 @@ export const cancelOrderSchema: PromptObject[] = [
 ];
 
 export const rpcUrls: {[key: number]: string} = {
-    [ChainId.etherumMainnet]: 'https://web3-node.1inch.exchange',
+    [ChainId.etherumMainnet]: 'https://ropsten.infura.io/v3/27c4cda533e54747be170380e740dfb0',
     [ChainId.binanceMainnet]: 'https://bsc-dataseed.binance.org',
     [ChainId.polygonMainnet]: 'https://bor-nodes.1inch.exchange',
 };
 
 export const contractAddresses: {[key: number]: string} = {
-    [ChainId.etherumMainnet]: '0x3ef51736315f52d568d6d2cf289419b9cfffe782',
+    [ChainId.etherumMainnet]: '0x479aD5912fB689C40E157428785d7f79B7fFc05d',
     [ChainId.binanceMainnet]: '0xe3456f4ee65e745a44ec3bcb83d0f2529d1b84eb',
     [ChainId.polygonMainnet]: '0xb707d89d29c189421163515c59e42147371d6857',
 };
 
 export const explorersUrls: {[key: number]: string} = {
-    [ChainId.etherumMainnet]: 'https://etherscan.io',
+    [ChainId.etherumMainnet]: 'https://ropsten.etherscan.io',
     [ChainId.binanceMainnet]: 'https://bscscan.com',
     [ChainId.polygonMainnet]: 'https://explorer-mainnet.maticvigil.com',
 };

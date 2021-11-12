@@ -19,7 +19,7 @@ import {
 
 const walletAddress = '0xhhh...';
 const contractAddress = '0x5fa31604fc5dcebfcac2481f9fa59d174126e5e6';
-const chainId = 1;
+const chainId = 3;
 
 const connector = new Web3ProviderConnector(new Web3('...'));
 const limitOrderProtocolFacade = new LimitOrderProtocolFacade(contractAddress, connector);

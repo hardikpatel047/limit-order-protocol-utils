@@ -12,7 +12,7 @@ import {
 
 const contractAddress = '0x5fa31604fc5dcebfcac2481f9fa59d174126e5e6';
 const walletAddress = '0x4758822de63992df27cacf1ba11417bbacace033';
-const chainId = 1;
+const chainId = 3;
 
 const web3 = new Web3('...');
 // You can create and use a custom provider connector (for example: ethers)
