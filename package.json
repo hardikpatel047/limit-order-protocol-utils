@@ -20,8 +20,7 @@
         "typecheck": "tsc --noEmit --skipLibCheck",
         "prettier": "prettier --write .",
         "make-badges": "istanbul-badges-readme",
-        "ci-pipeline": "yarn run lint && yarn run test && yarn run typecheck",
-        "limit-order-rfq-utils": "ts-node --project tsconfig.scripts.json ./src/utils/limit-order-rfq.utils.ts"
+        "ci-pipeline": "yarn run lint && yarn run test && yarn run typecheck"
     },
     "dependencies": {
         "@ethersproject/bignumber": "^5.1.1",
@@ -62,9 +61,6 @@
     "peerDependencies": {
         "assert": "^2.0.0",
         "stream": "^0.0.2"
-    },
-    "bin": {
-        "limit-order-rfq-utils": "./utils/limit-order-rfq.utils.js"
     },
     "husky": {
         "hooks": {
