@@ -1,5 +1,5 @@
 import { AbiItem } from './model/abi.model';
-export declare const PROTOCOL_NAME = "1inch Limit Order Protocol";
+export declare const PROTOCOL_NAME = "Onlyswap limit order protocol";
 export declare const PROTOCOL_VERSION = "1";
 export declare const ZX = "0x";
 export declare const ZERO_ADDRESS = "0x0000000000000000000000000000000000000000";

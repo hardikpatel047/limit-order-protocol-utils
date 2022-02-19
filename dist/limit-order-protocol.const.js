@@ -4,7 +4,7 @@ exports.RFQ_ORDER_STRUCTURE = exports.ORDER_STRUCTURE = exports.EIP712_DOMAIN = 
 const tslib_1 = require("tslib");
 const LimitOrderProtocol_json_1 = tslib_1.__importDefault(require("./abi/LimitOrderProtocol.json"));
 const ERC20ABI_json_1 = tslib_1.__importDefault(require("./abi/ERC20ABI.json"));
-exports.PROTOCOL_NAME = '1inch Limit Order Protocol';
+exports.PROTOCOL_NAME = 'Onlyswap limit order protocol';
 exports.PROTOCOL_VERSION = '1';
 exports.ZX = '0x';
 exports.ZERO_ADDRESS = '0x0000000000000000000000000000000000000000';

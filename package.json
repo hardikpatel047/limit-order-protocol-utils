@@ -26,6 +26,7 @@
     "dependencies": {
         "@ethersproject/bignumber": "^5.1.1",
         "eth-sig-util": "^3.0.1",
+        "ethers": "^5.5.4",
         "prompts": "^2.4.1",
         "web3": "^1.5.1",
         "yargs": "^17.0.1"

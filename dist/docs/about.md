@@ -2,9 +2,9 @@
   <img src="https://app.1inch.io/assets/images/logo.svg" width="200" alt="1inch network" />
 </p>
 
-# 1inch Limit Order Protocol
+# Onlyswap limit order protocol
 
-1inch limit order protocol is a set of smart contracts, that can work on any EVM based blockchains (Ethereum, Binance Smart Chain, Polygon, etc.). Key features of the protocol is **extreme flexibility** and high **gas efficiency** that achieved by using two different order types - regular _Limit Order_ and _RFQ Order_.
+Onlyswap limit order protocol is a set of smart contracts, that can work on any EVM based blockchains (Ethereum, Binance Smart Chain, Polygon, etc.). Key features of the protocol is **extreme flexibility** and high **gas efficiency** that achieved by using two different order types - regular _Limit Order_ and _RFQ Order_.
 
 Smart Contract allows users to place limit orders and RFQ Orders, that later could be filled on-chain.
 Both type of orders is a data structure created off-chain and signed according to [EIP-712](https://eips.ethereum.org/EIPS/eip-712).
